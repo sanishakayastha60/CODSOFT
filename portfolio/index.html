@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--navbar -->
+    <div class="menu">
+      <div class="icon burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="links">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+            <a href="C:\Users\user\Desktop\ss\New folder\styles.css" download
+              >Resume</a
+            >
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- homepage -->
+    <div id="home">Sanisha Kayastha Shrestha</div>
+    <!-- about -->
+    <div id="about">
+      <h4>About Me</h4>
+      <div class="desc">
+        <p class="left">
+          I am a computer enthusiast currently venturing the field of web
+          development and designing.
+        </p>
+        <p class="left">
+          <img
+            src="https://i.pinimg.com/236x/7a/4f/27/7a4f272eb9ea83f2a26215b4a9a19e07--free-stock-photos-copyright-free.jpg"
+            alt=""
+          />
+        </p>
+      </div>
+    </div>
+    <!-- skills -->
+    <div id="skills">
+      <h4>SKills</h4>
+      <button>HTML</button>
+      <button>CSS</button>
+      <button>Javascript</button>
+      <button>Git</button>
+      <button>Github</button>
+      <button>Responsive Design</button>
+      <button>SEO</button>
+    </div>
+    <!-- projects -->
+    <!-------------------------- Projects -------------------------->
+    <div id="projects">
+      <h4>My Projects</h4>
+      <div class="projects">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://images.unsplash.com/photo-1628935687655-8530bb7211bc?q=80&w=1422&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+            </div>
+          <div class="picinfo">
+            <h3>Calculator</h3>
+            <span>An application making use of HTML, CSS and Javascript.</span>
+          </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://th.bing.com/th/id/OIP.2tBScaNEJFL0a7Hus03xKQHaHa?w=192&h=192&c=7&r=0&o=5&pid=1.7"></img>
+            </div>
+          <div class="picinfo">
+            <h3>Tic-Tac-Toe</h3>
+            <span>A classic game made using HTML, CSS and Javascript.</span>
+          </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://media.istockphoto.com/photos/scissor-rock-paper-concept-game-picture-id670950914?k=6&m=670950914&s=612x612&w=0&h=t-WH5bfAJDbbxqnrI14PXGVGaS8scVfJqZvL-YCkI0M="></img>
+            </div>
+          <div class="picinfo">
+            <h3>Rock-Paper_Scissors</h3>
+            <span>A Javascript game. You vs Computer.</span>
+          </div>
+          </div>
+      </div>
+      </div>
+    <!-- resume -->
+    <!-- contact -->
+    <section id="contact">
+      <div id="contact-form">
+        <div class="contact-right">
+          <h4 class="contact">Contact Us</h4>
+          <span>Let's get connected!</span>           
+          <span>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          </span>
+          <div class="links">
+            <div class="link">
+              <a href="linkedin.com"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+            <div class="link">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </div>
+            <div class="link">
+              <a><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="link">
+              <a><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="form-left">
+          <h4 class="form">Contact Form</h4>
+          <form method="post" id="submit-contact-form">
+            <div class="topic">
+              <div>
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required=""
+                  autocapitalize="on"
+                />
+              </div>
+            </div>
+            <div class="topic">
+              <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required="" />
+              </div>
+            </div>
+            <div>
+              <div class="topic">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required=""></textarea>
+              </div>
+            </div>
+            <div>
+              <button class="submit-btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
